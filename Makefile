@@ -1,8 +1,9 @@
 CFLAGS=-std=c11 -g -static
 
 cc: cc.c
+		cc -o c/cc cc.c
 
-test: cc
+test: c/cc
 		./test.sh
 
 clean:
