@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     git \
     gcc \
     gdb \
+    make \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
